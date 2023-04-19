@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <title>EECS 348 Lab Seven</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+</head>
+
+<body id="problem03">
+    <header class="flex-container">
+        <div class="flex-element" style="text-align: center;">
+            <h1 style="margin-bottom: 5px; text-align: center;"> Problem 03: Javascript Password Verification</h1>
+            <a href="../~p114p932/">Return to homepage</a>
+        </div>
+    </header>
+
+    <hr>
+
+    <div class="container">
+        <div class="flex-container" style="flex-direction: column; padding: 20px;">
+            <div class="flex-container">
+                <div class="flex-container" style="height: 100%;">
+                    <div class="flex-element" style="margin-right: 10px;">
+                        <label for="pw1">Enter Password:</label>
+                        <label for="pw2">Confirm Password:</label>
+                    </div>
+                </div>
+                <div class="flex-container">
+                    <div class="flex-element">
+                        <input type="text" id="pw1"><br><br>
+                        <input type="text" id="pw2"><br><br>
+                    </div>
+                </div>
+                <div class="flex-container">
+                    <p id="result"></p>
+                </div>
+            </div>
+            <button onclick="checkPassword()">Click to check password!</button>
+        </div>
+    </div>
+
+</body>
+
+</html>

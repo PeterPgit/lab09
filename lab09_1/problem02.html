@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <title>EECS 348 Lab Seven</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+</head>
+
+<body id="problem02">
+    <header class="flex-container">
+        <div class="flex-element" style="text-align: center;">
+            <h1 style="margin-bottom: 5px; text-align: center;"> Problem 02: CSS Font Control</h1>
+            <a href="../~p114p932/">Return to homepage</a>
+        </div>
+    </header>
+
+    <hr>
+
+    <div class="container">
+        <div class="flex-container" style="flex-direction: column; padding: 20px;">
+            <p id="dummy-text" class="flex-element"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet nisl suscipit adipiscing bibendum est ultricies. Tincidunt dui ut ornare lectus sit amet est. Risus feugiat in ante metus dictum. Blandit volutpat maecenas volutpat blandit aliquam etiam. Proin nibh nisl condimentum id venenatis a. Facilisi morbi tempus iaculis urna id volutpat lacus. Arcu non odio euismod lacinia at quis risus sed vulputate. Justo eget magna fermentum iaculis eu non diam phasellus vestibulum. Faucibus nisl tincidunt eget nullam non nisi est sit. Tellus in metus vulputate eu scelerisque felis imperdiet. Enim nulla aliquet porttitor lacus luctus accumsan tortor posuere. Varius duis at consectetur lorem donec. Nec ultrices dui sapien eget mi proin sed. Gravida rutrum quisque non tellus orci ac auctor augue mauris.</p>
+            <div class="flex-container">
+                <div class="flex-element">
+                    <label>Paragraph Color:</label>
+                    <div class="flex-container">
+                    <p>R</p> <input type="text" id="pcolor_r" value="0">
+                    </div>
+                    
+                    <div class="flex-container">
+                    <p>G</p><input type="text" id="pcolor_g" value="0">
+                    </div>
+
+                    <div class="flex-container">
+                    <p>B</p> <input type="text" id="pcolor_b" value="0">
+                    </div>
+                </div> 
+                <br>
+                <div class="flex-element">
+                    <label>Border Color:</label>
+                    <div class="flex-container">
+                    <p>R</p> <input type="text" id="bcolor_r" value="0">
+                    </div>
+                    
+                    <div class="flex-container">
+                    <p>G</p> <input type="text" id="bcolor_g" value="0">
+                    </div>
+                    
+                    <div class="flex-container">
+                    <p>B</p><input type="text" id="bcolor_b" value="0">
+                    </div>
+                </div>
+                <br>
+                <div class="flex-element">
+                    <label for="pcolor">Border Size:</label>
+                    <input type="text" id="bsize"><br><br>
+                </div> 
+            </div>
+            <button onclick="changeColor()">Click to apply colors!</button>
+        </div>
+    </div>
+
+</body>
+
+</html>

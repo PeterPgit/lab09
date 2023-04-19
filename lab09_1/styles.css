@@ -1,0 +1,92 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #fffaf0;
+    color: black;
+    padding: 0px;
+    margin: 0px;
+}
+
+br {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+header {
+    margin: 10px;
+}
+
+a {
+    transition-duration: 0.5s;
+    color: black;
+    /* color: #708090; */
+}
+
+a:hover {
+    background-color: #6f9283;
+    color: white;
+}
+
+hr {
+    margin: 20px;
+}
+
+.container {
+    border: black solid 2px;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-element {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.flex-element > * {
+    margin: 2px;
+}
+
+h2 {
+    margin-left: 20px;
+}
+
+#info .flex-element {
+    flex-grow: 1;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#info h4 {
+    margin-top: 0px;
+}
+
+#info .flex-element p{
+    margin: 5px;
+}
+
+#problem02 #dummy-text {
+    border: black solid 2px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+#problem02 input[type="text"] {
+    width: 50px;
+}
+
+#problem02 .flex-container p {
+    margin-left: 5px;
+    margin-right: 5px;
+}
